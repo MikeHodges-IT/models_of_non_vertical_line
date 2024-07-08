@@ -1,13 +1,17 @@
 # Models of Non-Vertical Line
-
-This project was created for a C programming class at Valencia College. Instead of submitting basic command-line responses, this project mimics Visual Basic functionalities using ASCII characters. The system includes features such as tab indexing, visibility toggles, and button/text classes, creating an interactive environment for homework assignments.
+This project features a VB-style interface written entirely in C++, using ASCII characters to create graphical elements. The application mimics Visual Basic functionalities with a text-based UI, providing an interactive environment for calculating the equation of a non-vertical line given two points. This project was created for a C++ programming class at Valencia College. Instead of submitting basic command-line responses, this project mimics Visual Basic functionalities using ASCII characters. 
 
 ## Features
 
-- **ASCII-Based UI**: Mimics Visual Basic interface using ASCII characters.
+- **VB-Style Interface**: Built from scratch using C++.
+- **ASCII Graphical Elements**: Utilizes ASCII characters to mimic Visual Basic elements.
+- **Two-Point Form Calculation**: Computes and displays the slope and two-point form equation.
+- **Slope-Intercept Form Calculation**: Converts the two-point form to the slope-intercept form and displays the equation.
+- **Graphical Display**: Visualizes the line on a coordinate grid based on the input points.
+- **Error Handling**: Ensures users enter valid numerical values.
+- **Interactive Elements**: Implements buttons, text fields, and more with ASCII characters.
 - **Tab Indexing**: Allows navigation through interface elements.
-- **Visibility Control**: Toggle visibility of buttons and text classes.
-- **Interactive Elements**: Implements basic button and text field functionalities.
+- **Clear, About, and Exit Buttons**: Provides standard functionalities to clear inputs, show application info, and exit the program.
 
 ## Project Structure
 
@@ -52,7 +56,7 @@ This project goes beyond the basic requirements, demonstrating my love of learni
 
 ## Screenshots
 
-![Application Screenshot](images/Start.png)!
+![Application Screenshot](images/Start.png)
 ![Application Screenshot](images/TwoPointForm.png)
 ![Application Screenshot](images/PointSlopeCal.png)
 
